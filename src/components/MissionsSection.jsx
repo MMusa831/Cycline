@@ -1,5 +1,5 @@
-import React from 'react';
-import { cn } from '../lib/Utils';
+import Image1 from "..//assets/Image1.png";
+import Image2 from "..//assets/Image2.png";
 
 const MissionsSection = () => {
   const missions = [
@@ -7,13 +7,13 @@ const MissionsSection = () => {
       id: 1,
       title: "Maintenance de trottinettes et vélos électriques",
       description: "Nous travaillons pour notre partenaire PONY SA à Evry et ses alentours depuis 2024 pour la maintenance de leurs flottes de trottinettes électriques.",
-      image: "/src/assets/Image1.jpg"
+      image: Image1
     },
     {
       id: 2,
       title: "Maintenance de trottinettes et vélos électriques",
       description: "Nous travaillons avec notre partenaire PONY SA à Beauvais et ses alentours depuis 2024 pour la maintenance de leurs flottes de trottinettes et vélos électriques.",
-      image: "/src/assets/Image2.jpg"
+      image: Image2
     },
   
   ];

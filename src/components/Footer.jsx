@@ -1,5 +1,6 @@
 import React from 'react';
 import { cn } from '../lib/Utils';
+import Logo2 from "../assets/Logo2.png" // White logo for dark mode
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -10,7 +11,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
             <div className="flex items-center mb-6">
-              <img src="/src/assets/Logo1.png" alt="Cycline" className="h-10 mr-3" />
+              <img src={Logo2} alt="Cycline" className="h-10 mr-3" />
               <span className="text-2xl font-bold text-foreground">Cycline</span>
             </div>
             <p className="text-foreground/70 mb-6">

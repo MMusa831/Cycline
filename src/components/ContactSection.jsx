@@ -6,18 +6,60 @@ const ContactSection = () => {
     <section id="contact" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Soyez au <span className="text-primary">courant</span></h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Soyez <span className="text-primary">au courant</span></h2>
           <p className="text-foreground/70 max-w-2xl mx-auto">avez-vous des questions ou souhaitez-vous en savoir plus ? Contactez notre équipe.</p>
         </div>
-
-  <div className="grid grid-cols-1 gap-12 place-items-center">
-          {/* <div className="bg-card rounded-xl p-8 shadow-lg">
         
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          {/* <div className="bg-card rounded-xl p-3 shadow-lg">
+            <h3 className="text-2xl font-bold mb-6">Envoyez-nous un message</h3>
+            <form>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
+                <div>                  
+                  <input 
+                    type="text" 
+                    id="name" 
+                    className="w-full px-4 py-2 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-primary"
+                    placeholder="Votre Nom"
+                  />
+                </div>
+                <div>                 
+                  <input 
+                    type="email" 
+                    id="email" 
+                    className="w-full px-4 py-2 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-primary"
+                    placeholder="Votre Email"
+                  />
+                </div>
+              </div>
+              
+              <div className="mb-6">                
+                <input 
+                  type="text" 
+                  id="subject" 
+                  className="w-full px-4 py-2 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-primary"
+                  placeholder="Objet du message"
+                />
+              </div>
+              
+              <div className="mb-6">                
+                <textarea 
+                  id="message" 
+                  rows="5" 
+                  className="w-full px-4 py-2 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-primary resize-none"
+                  placeholder="Votre Message"
+                ></textarea>
+              </div>
+              
+              <button type="submit" className="cosmic-button w-full">
+                Envoyer le message
+              </button>
+            </form>
           </div> */}
           
-          <div>
+          <div className='lg:col-span-2 flex justify-center'>
             <div className="bg-card rounded-xl p-8 shadow-lg w-full max-w-xl">
-              <h3 className="text-2xl font-bold mb-6">Nous Contacter</h3>
+              <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
               <div className="space-y-4">
                 <div className="flex items-start">
                   <div className="bg-primary/10 p-3 rounded-full mr-4">
@@ -27,8 +69,8 @@ const ContactSection = () => {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-bold text-foreground">Addresse</h4>
-                    <p className="text-foreground/70">Rue Georges lebigot, Villejuif 94800</p>
+                    <h4 className="font-bold text-foreground">Notre addresse</h4>
+                    <p className="text-foreground/70">Rue Georges Lebigot, 94800 Villejuif, France</p>
                   </div>
                 </div>
                 
@@ -51,14 +93,14 @@ const ContactSection = () => {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-bold text-foreground">Télephone</h4>
+                    <h4 className="font-bold text-foreground">Call Us</h4>
                     <p className="text-foreground/70">+33 6 24 51 25 52</p>
                   </div>
                 </div>
               </div>
             </div>
             
-            {/* Map removed as requested */}
+            {/* Map section removed as requested */}
           </div>
         </div>
       </div>

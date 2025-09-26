@@ -1,6 +1,6 @@
 import React from 'react';
 import { cn } from '../lib/Utils';
-import Logo1 from "../assets/Logo2.png" // White logo for dark mode 
+import Image from "../assets/Image3.jpg" // White logo for dark mode 
 
 const AboutSection = () => {
   return (
@@ -46,7 +46,7 @@ const AboutSection = () => {
             <div className="relative">
               <div className="absolute -inset-4 bg-primary/20 rounded-lg blur-xl"></div>
               <img 
-                src={Logo1} 
+                src={Image} 
                 alt="Team at work" 
                 className="relative rounded-lg shadow-lg w-full h-auto z-10"
               />

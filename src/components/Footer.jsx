@@ -1,6 +1,5 @@
-import React from 'react';
-import { cn } from '../lib/Utils';
-import Logo2 from "../assets/Logo2.png" // White logo for dark mode
+
+import Logo from "../assets/purpleLogo.png" // Purple logo for light mode
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -11,7 +10,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
             <div className="flex items-center mb-6">
-              <img src={Logo2} alt="Cycline" className="h-10 mr-3" />
+              <img src={Logo} alt="Cycline" className="h-10 mr-3" />
               <span className="text-2xl font-bold text-foreground">Cycline</span>
             </div>
             <p className="text-foreground/70 mb-6">
@@ -37,7 +36,7 @@ const Footer = () => {
           </div>
           
           <div>
-            <h4 className="text-xl font-bold mb-6">Liens Utiles</h4>
+            <h4 className="text-xl font-bold mb-6">Liens Rapides</h4>
             <ul className="space-y-3">
               <li><a href="#home" className="text-foreground/70 hover:text-primary transition-colors duration-300">Accueil</a></li>
               <li><a href="#about" className="text-foreground/70 hover:text-primary transition-colors duration-300">À Propos</a></li>
@@ -53,28 +52,29 @@ const Footer = () => {
               <li><a href="#" className="text-foreground/70 hover:text-primary transition-colors duration-300">Réparation et Diagnostic</a></li>
               <li><a href="#" className="text-foreground/70 hover:text-primary transition-colors duration-300">Entretien Préventif</a></li>
               <li><a href="#" className="text-foreground/70 hover:text-primary transition-colors duration-300">Remplacement de Pièces</a></li>
-              <li><a href="#" className="text-foreground/70 hover:text-primary transition-colors duration-300">Assistance Personnalisée</a></li>              
+              <li><a href="#" className="text-foreground/70 hover:text-primary transition-colors duration-300">Assistance Personnalisée</a></li>
+             
             </ul>
           </div>
           
           <div>
             <h4 className="text-xl font-bold mb-6">Newsletter</h4>
-            <p className="text-foreground/70 mb-4">Abonnez-vous à notre newsletter pour les dernières mises à jour et offres.</p>
+            <p className="text-foreground/70 mb-4">Subscribe to our newsletter for the latest updates and offers.</p>
             <form className="space-y-3">
               <input 
                 type="email" 
-                placeholder="Votre adresse e-mail" 
+                placeholder="Your Email Address" 
                 className="w-full px-4 py-2 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-primary"
               />
               <button type="submit" className="w-full py-2 px-4 bg-primary text-primary-foreground rounded-lg font-medium transition-colors duration-300 hover:bg-primary/90">
-                S'abonner
+                Subscribe
               </button>
             </form>
           </div>
         </div>
         
         <div className="border-t border-border pt-8 text-center">
-          <p className="text-foreground/60">© {currentYear} Cycline. tous droits réservés.</p>
+          <p className="text-foreground/60">© {currentYear} Cycline. All rights reserved.</p>
         </div>
       </div>
     </footer>

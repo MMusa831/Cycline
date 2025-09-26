@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { cn } from '../lib/Utils';
-import WhiteLogo from "../assets/Logo1.png" // White logo for dark mode
-import PurpleLogo from "../assets/Logo2.png" // Purple logo for light mode
+import Logo from "../assets/purpleLogo.png" // Purple logo for light mode
 
 import { Menu, X } from 'lucide-react';
 import { ThemeToggle } from './Themetoggle';
@@ -37,8 +36,7 @@ const Navbar = () => {
           <a href='#home'>
             <div className='relative mx-4'>
               {/* Light mode: purple logo; Dark mode: white logo */}
-              <img src={PurpleLogo} width={50} alt="Cycline" className="block dark:hidden" />
-              <img src={WhiteLogo} width={50} alt="Cycline" className="hidden dark:block" />
+              <img src={Logo} width={50} alt="Cycline" className="block dark:hidden" />            
             </div>
           </a>
           {/* desktop navbar*/}

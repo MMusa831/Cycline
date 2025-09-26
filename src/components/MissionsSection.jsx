@@ -1,5 +1,6 @@
-import Image1 from "..//assets/Image1.png";
-import Image2 from "..//assets/Image2.png";
+import React from 'react';
+import  Image1  from '../assets/Image1.png'; 
+import  Image2  from '../assets/Image2.png';
 
 const MissionsSection = () => {
   const missions = [
@@ -15,8 +16,7 @@ const MissionsSection = () => {
       description: "Nous travaillons avec notre partenaire PONY SA à Beauvais et ses alentours depuis 2024 pour la maintenance de leurs flottes de trottinettes et vélos électriques.",
       image: Image2
     },
-  
-  ];
+      ];
 
   return (
     <section id="missions" className="py-20 bg-card">
@@ -34,12 +34,12 @@ const MissionsSection = () => {
                 <p className="text-foreground/80 mb-6">{mission.description}</p>
                 <div className="w-16 h-1 bg-primary mb-6"></div>
                 <p className="text-foreground/70 mb-6">
-                  Chez Cycline, nous croyons en offrir des solutions durables et innovantes à nos clients.
+                  At Cycline, we believe in creating a tangible impact on the world through actionable goals and measurable outcomes. 
+                  Our mission is not just a statement, but a commitment we pursue every day.
                 </p>
                 <a className="px-6 py-2 rounded-full bg-primary/10 text-primary font-medium transition-all duration-300" href="#">
                   Pour en savoir plus sur cette mission
                 </a>
-
               </div>
             </div>
             <div className="md:w-1/2">

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { cn } from '../lib/Utils';
-import Logo from "../assets/purpleLogo.png" // Purple logo for light mode
+import Logo from "../assets/Cycline.png" // Purple logo for light mode
 
 import { Menu, X } from 'lucide-react';
 import { ThemeToggle } from './Themetoggle';
@@ -29,9 +29,9 @@ const Navbar = () => {
     window.addEventListener("scroll", handleScroll)
   }, []);
   return (
-    
-      <nav className={cn("fixed w-full z-40 transition-all duration-300 border-b border bg-background", 
-      )}>
+     <nav className="fixed w-full z-40 transition-all duration-300 border-b border bg-white dark:bg-background/50"
+     // <nav className={cn("fixed w-full z-40 transition-all duration-300 border-b border bg-background", 
+     >
         <div className='container flex items-center justify-between'>
           <a href='#home'>
             <div className='relative mx-4'>
@@ -45,7 +45,7 @@ const Navbar = () => {
               <a
                 key={key}
                 href={item.href}
-                className='text-foreground/80 hover:text-primary font-bold transition-colors duration-300'
+                className='text-purple-900 hover:text-primary font-bold transition-colors duration-300'
               >
                 {item.name}
               </a>

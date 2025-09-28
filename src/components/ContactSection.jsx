@@ -59,7 +59,7 @@ const ContactSection = () => {
           
           <div className='lg:col-span-2 flex justify-center'>
             <div className="bg-card rounded-xl p-8 shadow-lg w-full max-w-xl">
-              <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
+              {/* <h3 className="text-2xl font-bold mb-6">Contact Information</h3> */}
               <div className="space-y-4">
                 <div className="flex items-start">
                   <div className="bg-primary/10 p-3 rounded-full mr-4">

@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="bg-card pt-16 pb-8 border-t border-border">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           <div>
             <div className="flex items-center mb-6">
               <img src={Logo} alt="Cycline" className="h-10 mr-3" />
@@ -57,7 +57,7 @@ const Footer = () => {
             </ul>
           </div>
           
-          <div>
+          {/* <div>
             <h4 className="text-xl font-bold mb-6">Newsletter</h4>
             <p className="text-foreground/70 mb-4">Subscribe to our newsletter for the latest updates and offers.</p>
             <form className="space-y-3">
@@ -70,11 +70,11 @@ const Footer = () => {
                 Subscribe
               </button>
             </form>
-          </div>
+          </div> */}
         </div>
         
         <div className="border-t border-border pt-8 text-center">
-          <p className="text-foreground/60">© {currentYear} Cycline. All rights reserved.</p>
+          <p className="text-foreground/60">© {currentYear} Cycline. tous droits réservés.</p>
         </div>
       </div>
     </footer>

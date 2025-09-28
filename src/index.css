@@ -71,7 +71,8 @@
   --foreground: 222 47% 11%;
   --card: 0 0% 100%;
 
-  --primary: 250 47% 60%;
+  /* #46B68E -> hsl(159, 44%, 49%) */
+  --primary: 159 44% 49%;
   --primary-foreground: 210 40% 98%;
 
   --border: 214 32% 91%;
@@ -81,7 +82,8 @@
   --foreground: 213 31% 91%;
   --card: 222 47% 8%;
 
-  --primary: 250 65% 65%;
+  /* Dark theme variant of #46B68E: slightly more saturated/brighter for contrast */
+  --primary: 159 55% 55%;
   --primary-foreground: 213 31% 91%;
 
   --border: 217 33% 20%;

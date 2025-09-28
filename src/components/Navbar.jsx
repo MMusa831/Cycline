@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { cn } from '../lib/Utils';
-import Logo from "../assets/Cycline.png" // Purple logo for light mode
+import Logo from "../assets/CyclineLogo.png" // Purple logo for light mode
 
 import { Menu, X } from 'lucide-react';
 import { ThemeToggle } from './Themetoggle';
@@ -29,14 +29,14 @@ const Navbar = () => {
     window.addEventListener("scroll", handleScroll)
   }, []);
   return (
-     <nav className="fixed w-full z-40 transition-all duration-300 border-b border bg-white dark:bg-background/50"
+     <nav className="fixed w-full z-40 transition-all duration-300 border-b border bg-background dark:bg-background/50"
      // <nav className={cn("fixed w-full z-40 transition-all duration-300 border-b border bg-background", 
      >
         <div className='container flex items-center justify-between'>
           <a href='#home'>
             <div className='relative mx-4'>
               {/* Light mode: purple logo; Dark mode: white logo */}
-              <img src={Logo} width={50} alt="Cycline" className="block dark:hidden" />            
+              <img src={Logo} width={150} alt="Cycline" className="block dark:hidden" />            
             </div>
           </a>
           {/* desktop navbar*/}
@@ -45,7 +45,7 @@ const Navbar = () => {
               <a
                 key={key}
                 href={item.href}
-                className='text-purple-900 hover:text-primary font-bold transition-colors duration-300'
+                className='text-foreground hover:text-primary font-bold transition-colors duration-300'
               >
                 {item.name}
               </a>

@@ -93,7 +93,7 @@ const ContactSection = () => {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-bold text-foreground">Call Us</h4>
+                    <h4 className="font-bold text-foreground">Téléphone</h4>
                     <p className="text-foreground/70">+33 6 24 51 25 52</p>
                   </div>
                 </div>

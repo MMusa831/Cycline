@@ -7,13 +7,13 @@ const MissionsSection = () => {
     {
       id: 1,
       title: "Maintenance de trottinettes et vélos électriques",
-      description: "Nous travaillons pour notre partenaire PONY SA à Evry et ses alentours depuis 2024 pour la maintenance de leurs flottes de trottinettes électriques.",
+      description: "Nous travaillons pour notre client PONY SA à Evry et ses alentours depuis 2024 pour la maintenance de leurs flottes de trottinettes électriques.",
       image: Image1
     },
     {
       id: 2,
       title: "Maintenance de trottinettes et vélos électriques",
-      description: "Nous travaillons avec notre partenaire PONY SA à Beauvais et ses alentours depuis 2024 pour la maintenance de leurs flottes de trottinettes et vélos électriques.",
+      description: "Nous travaillons avec notre client PONY SA à Beauvais et ses alentours depuis 2024 pour la maintenance de leurs flottes de trottinettes et vélos électriques.",
       image: Image2
     },
       ];

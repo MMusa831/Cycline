@@ -38,7 +38,7 @@ const MissionsSection = () => {
                   Our mission is not just a statement, but a commitment we pursue every day.
                 </p>
                 <a className="px-6 py-2 rounded-full bg-primary/10 text-primary font-medium transition-all duration-300" href="#">
-                  Pour en savoir plus sur cette mission
+                  Pour en savoir plus
                 </a>
               </div>
             </div>

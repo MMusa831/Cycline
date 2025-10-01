@@ -3,7 +3,7 @@ import { cn } from '../lib/Utils';
 import Logo from "../assets/CyclineLogo.png" // Purple logo for light mode
 
 import { Menu, X } from 'lucide-react';
-import { ThemeToggle } from './Themetoggle';
+import { ThemeToggle } from './ThemeToggle';
 
 
 const navItems = [

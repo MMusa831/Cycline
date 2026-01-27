@@ -6,6 +6,7 @@ import MissionsSection from "../components/MissionsSection";
 import ContactSection from "../components/ContactSection";
 import Footer from "../components/Footer";
 import StarBackground from "../components/StarBackground";
+import CopyContact from "../components/CopyContact";
 
  const Home = () => {
   return (
@@ -17,6 +18,7 @@ import StarBackground from "../components/StarBackground";
      <ServicesSection />
      <MissionsSection />
      <ContactSection />
+     {/* <CopyContact /> */}
      <Footer />
     </div>
   );

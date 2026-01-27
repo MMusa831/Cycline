@@ -1,5 +1,5 @@
 
-import Logo from "../assets/CyclineLogo.png" // Purple logo for light mode
+import Logo from "../assets/CyclineLogo1.png" // Purple logo for light mode
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -10,8 +10,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           <div>
             <div className="flex items-center mb-6">
-              <img src={Logo} alt="Cycline" className="h-10 mr-3" />
-              <span className="text-2xl font-bold text-foreground">Cycline</span>
+              <img src={Logo} alt="Cycline" className="h-18" />
+              {/* <span className="text-2xl font-bold text-foreground">Cycline</span> */}
             </div>
             <p className="text-foreground/70 mb-6">
               Réparation et entretien de vélos et trottinettes électriques par des professionnels qualifiés.

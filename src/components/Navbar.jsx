@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { cn } from '../lib/Utils';
-import Logo from "../assets/CyclineLogo.png" // Purple logo for light mode
+import Logo from "../assets/CyclineLogo1.png" // Purple logo for light mode
 
 import { Menu, X } from 'lucide-react';
 import { ThemeToggle } from './ThemeToggle';

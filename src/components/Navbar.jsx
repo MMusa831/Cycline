@@ -36,8 +36,8 @@ const Navbar = () => {
           <a href='#home'>
             <div className='relative mx-4'>
               {/* Light mode: purple logo; Dark mode: white logo */}
-              <img src={Logo} width={150} alt="Cycline" className="block dark:hidden" />            
-            </div>
+              <img src={Logo} width={150} alt="Cycline" className="block dark:hidden" />                       
+            </div>            
           </a>
           {/* desktop navbar*/}
           <div className='hidden md:flex space-x-8'>

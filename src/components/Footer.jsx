@@ -1,5 +1,5 @@
 
-import Logo from "../assets/CyclineLogo1.png" // Purple logo for light mode
+import Logo from "../assets/CyclineLogo2.png" // Purple logo for light mode
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
